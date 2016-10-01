@@ -1,0 +1,36 @@
+@import "https://fonts.googleapis.com/css?family=Varela+Round";
+.button {
+  font-family: 'Varela Round', sans-serif;
+  display: inline-block;
+  background: #333;
+  width: 180px;
+  height: 65px;
+  line-height: 67px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 4px;
+  box-shadow: 0 3px 0 #292929;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.social-twitter {
+  background: #1DA1F2;
+  box-shadow: 0 3px 0 #1c9ae8;
+}
+
+.social-facebook {
+  background: #3B5998;
+  box-shadow: 0 3px 0 #36518a;
+}
+
+.social-line {
+  background: #00B900;
+  box-shadow: 0 3px 0 #06a606;
+}
+
+.social-pocket {
+  background: #EF4056;
+  box-shadow: 0 3px 0 #e03a4f;
+}

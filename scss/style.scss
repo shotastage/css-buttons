@@ -1,0 +1,31 @@
+@import 'https://fonts.googleapis.com/css?family=Varela+Round';
+
+
+.button {
+  font-family: 'Varela Round', sans-serif;
+  display: inline-block;
+  background: #333;
+  width: 180px;
+  height: 65px;
+  line-height: 67px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 4px;
+  box-shadow: 0 3px 0 #292929;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+@mixin social-color($name, $color, $dark-color) {
+  .social-#{$name} {
+    background: $color;
+    box-shadow: 0 3px 0 $dark-color;
+  }
+}
+
+
+@include social-color(twitter, #1DA1F2, #1c9ae8);
+@include social-color(facebook, #3B5998, #36518a);
+@include social-color(line, #00B900, #06a606);
+@include social-color(pocket, #EF4056, #e03a4f);
